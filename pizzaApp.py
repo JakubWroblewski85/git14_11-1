@@ -19,3 +19,5 @@ elif a == b:
     print('Obie są równe')
 else:
     print('Pizza 2 opłaca się bardziej')
+
+
