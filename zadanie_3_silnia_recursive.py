@@ -33,3 +33,4 @@ def silnia_recursive(liczba):
 print(silnia_recursive(liczba))
 # funkcja recurencyjna to funkcja która wywołuje samą siebie wewnątrz swojego ciała.
 
+
