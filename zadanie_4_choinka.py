@@ -8,3 +8,7 @@ for i in range(height):
     starts += 2
 print((' ' * height) + '|')
 
+
+
+
+
