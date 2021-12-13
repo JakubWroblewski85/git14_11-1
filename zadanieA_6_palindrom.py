@@ -1,8 +1,13 @@
-
-slowo = input("Podaj przykładowe słowo a my sprawdzimy czy jest to palindrom...\n")
-print("Palindrom to słowo które czytane od lewej jak i od prawej piszę sie tak samo czyli to samo znaczy.\n")
-
-# print(slowo[-1: : -1])
+# Program sprawdzający czy słowe jest palindromem (czytane od tyłu brzmi tak samo)
+word = str(input("Wpisz słowo: "))
+word = word.replace(" ", "")
+word = word.lower()
+reverse_word = (word[::-1])
+print (reverse_word)
+if reverse_word == word:
+    print("To jest palindrom")
+else:
+    print(f'{word} nie jest palindromem')
 
 # reverse = reversed(slowo)
 # print(''.join(reverse))

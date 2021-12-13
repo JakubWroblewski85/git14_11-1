@@ -1,10 +1,11 @@
-
-liczba = int(input("Podaj liczbę naturalną, sprawdzimy ją czy jest to liczba pierwsza...\n"))
-print("Liczba pierwsza to taka liczba która da sie podzielić przez 2 inne liczby naturalne.\n")
-
-if liczba %2 != 0:
-    print(liczba %2 !=0)
-    print("Liczba podana przez Ciebie", liczba, "jest liczbą pierwszą")
+num = int(input("Wpisz liczbe: "))
+if num > 1:
+    for i in range(2, num):
+        if (num % i) == 0:
+            print(num, "to nie jest liczba pierwsza")
+            break
+    else:
+        print(num, "to jest liczba pierwsza")
 else:
-    print(liczba %2 !=0)
-    print("Liczba podana przez Ciebie", liczba, "nie jest liczbą pierwszą")
+    print(num, "to nie jest liczba pierwsza, musi być większa od 1")
+
