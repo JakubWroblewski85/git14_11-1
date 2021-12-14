@@ -1,0 +1,46 @@
+8:45
+Grzegorz
+
+1.wstep do agile
+Waterfall - pomysł iz jest to wodospad (kaskadowy cecha podejscia)
+np. facebook (meta) ma Sprinty co 2 tyg.
+Przyjmuje sie iz sprinty są od 1 - 4 tygodni.
+trujką cech: budzet, czas, zasoby
+zasada fibonacciego tak przechodza stp story pointy
+Metodyki:
+Scrum Kamban SAFe(new)-fremowork (pozwala nam skoordynować kilka scrumów na raz)
+
+RTE -Realize train enginer
+
+co to jest SCRUM
+Scrum to uproszczone ramy postępowania, które pomagają poszczególnym osobom, zespołom i
+organizacjom wytwarzać wartość poprzez adaptacyjne rozwiązywanie złożonych problemów.
+
+release notes -powinien zawerać (Oficjalna dystrybucja Przyrostu produktu 
+udostępniona dla użytkownika docelowego, na finalnym środowisku)
+
+scope -to zakres sprintu 
+Kanban -to metodyka zarządzania przepływu pracy zaprojektowana w celu wizualizacji 
+pracy, maksymalizacji wydajnosci i zwinosci. Z japonskiego kanban to bilbord lub szyld
+
+Jaa jest rola testera w zespole scrumowym:
+nalezy do nich:
+-doskonalenie backlogu produktu
+-estymacja (będący zbiorem metod pozwalających na uogólnianie wyników badania 
+próby losowej na nieznaną postać i parametry rozkładu zmiennej losowej całej 
+populacji oraz szacowanie błędów wynikających z tego uogólnienia.)
+-tworzenie definicji of ready i definition of done ()
+-aktualizacja gotowych testów
+-inne
+
+Jak wygląda typowy sprint dla testera? ()
+ dzien dziesiaty(dokoncz)
+ dzien pierwszy, prace na dzisiaj (dokoncz)
+ pokoleji dni dokoncz 
+
+PI -project increment (6 tygodni  -3 sprinty po 2 tygodniowe)
+
+
+
+
+

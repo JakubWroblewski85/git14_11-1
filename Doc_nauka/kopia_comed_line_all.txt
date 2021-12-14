@@ -1,0 +1,226 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  sudo apt update
+    4  sudo apt install gcc make perl
+    5  python3
+    6  pip3
+    7  sudo apt install python3-pip
+    8  sudo apt install openjdk-13-jre-headless
+    9  sudo apt install openjdk-13-jdk-headless
+   10  java --version
+   11  sudo snap install intellij-idea-community --classic
+   12  sudo snap install pycharm-community --classic
+   13  sudo apt remove thunderbird
+   14  sudo apt install libreoffice-calc
+   15  sudo apt install libreoffice-writer
+   16  sudo apt update
+   17  tail /var/log/messages
+   18  cat /proc/kmsg 
+   19  sudo cat /proc/kmsg 
+   20  python3 --version
+   21  sudo apt install git
+   22  history
+   23  git status
+   24  clear
+   25  python --version
+   26  python3 --version
+   27  python2 --version
+   28  python --version
+   29  clear
+   30  history
+   31  java --version
+   32  ls
+   33  cd ~
+   34  ls
+   35  cd snap/
+   36  ls
+   37  cd snap-store/
+   38  ls
+   39  cd ../..
+   40  clear
+   41  pwd
+   42  clear
+   43  cd /usr/bin/
+   44  ls
+   45  hi
+   46  clear
+   47  git - version
+   48  git
+   49  git --version
+   50  clear
+   51  git--version
+   52  git --version
+   53  pwd
+   54  ls
+   55  dir
+   56  ls
+   57  clear
+   58  cd Pulpit
+   59  pwd
+   60  ls
+   61  mkdir tester_selenium
+   62  ls
+   63  cd tester_selenium
+   64  ls
+   65  pwd
+   66  cd
+   67  ls
+   68  cd tester_selenium
+   69  cd Pulpit
+   70  cd tester_selenium
+   71  cd ~
+   72  ls
+   73  pwd
+   74  cd Pulpit/tester_selenium/
+   75  mkdir git
+   76  ls
+   77  echo "lubie testowanie"
+   78  cd git/
+   79  pwd
+   80  git --version
+   81  git help
+   82  git init
+   83  ls
+   84  la -all
+   85  ls -all
+   86  cd .git
+   87  ls
+   88  cd branches/
+   89  ls
+   90  ls -all
+   91  ls -a
+   92  cd
+   93  cd Pulpit/
+   94  ls
+   95  cd tester_selenium/
+   96  cd git
+   97  cd .
+   98  cd git
+   99  cd .git
+  100  ls -a
+  101  cd ../..
+  102  ls
+  103  ls -a
+  104  ls
+  105  mkdir git2
+  106  cd git2
+  107  cp nauka.txt
+  108  mkdir nauka.txt
+  109  ls
+  110  touch nauka.txt
+  111  ls
+  112  remove git2
+  113  clear
+  114  ls
+  115  mkdir instrukcja
+  116  touch nauka.txt
+  117  ls
+  118  cd instrukcja/
+  119  touch nauka.txt
+  120  ls
+  121  cd .
+  122  cd ..
+  123  ls
+  124  rm nauka.txt
+  125  ls
+  126  cd instrukcja/
+  127  python --version
+  128  cd
+  129  python --version
+  130  python -ver
+  131  help
+  132  clear
+  133  python3 --version
+  134  python --version
+  135  ls
+  136  cd Pulpit
+  137  cd tester_selenium/
+  138  cd git2/
+  139  python3 --version
+  140  python --ver
+  141  python -ver
+  142  python3 -ver
+  143  clear
+  144  history
+  145  clear
+  146  ls
+  147  cd nauka
+  148  cd instrukcja/
+  149  ls
+  150  cp nauka.txt home/tester/Pulpit/tester_selenium/git
+  151  clear
+  152  cp nauka.txt
+  153  cp nauka.txt /home/tester/Pulpit/tester_selenium/git
+  154  ls
+  155  cp nauka.txt ~/Pulpit/tester_selenium/git
+  156  ls
+  157  history
+  158  clear
+  159  python3 --version
+  160  cd ..
+  161  tree
+  162  cd ..
+  163  ls
+  164  cd git
+  165  ls
+  166  tree
+  167  apt install tree
+  168  sudo apt install tree
+  169  cd
+  170  tree
+  171  cd Pulpit/tester_selenium/git
+  172  tree
+  173  echo
+  174  ls
+  175  touch jezyki.txt
+  176  ls
+  177  echo Python 3.8.10 nauka.txt
+  178  ls
+  179  echo Python 3.8.10 >nauka.txt
+  180  mv jezyki.txt ~/Pulpit/tester_selenium/git2/instrukcja/
+  181  echo Python 3.8.10 >>nauka.txt
+  182  echo "Python 3.8.10" >>nauka.txt
+  183  echo "Python 2.8.10" >nauka.txt
+  184  echo "Python 3.8.10" >>nauka.txt
+  185  echo "Python 3.8.10" >nauka.txt
+  186  cat nauka.txt
+  187  echo "Python 3.5.10" >nauka.txt
+  188  cat nauka.txt
+  189  echo "Python 3.8.10" >nauka.txt
+  190  cat nauka.txt
+  191  cat nauka.txt | grep "Python"
+  192  cat nauka.txt | grep Python
+  193  cat nauka.txt | grep Python 3
+  194  cat nauka.txt | grep "Python 3"
+  195  ls
+  196  cat nauka.txt|grep "Python 3"
+  197  pwd
+  198  ls
+  199  cat nauka.txt
+  200  git status
+  201  ls -a
+  202  touch nowyplik.txt
+  203  ls
+  204  pwd
+  205  touch jezyki.txt
+  206  echo Java >jezyki.txt
+  207  cat jezyki.txt
+  208  git hash-object jezyki.txt
+  209  echo Python >jezyki.txt
+  210  git hash-object jezyki.txt
+  211  echo Java >jezyki.txt
+  212  git hash-object jezyki.txt
+  213  git status
+  214  clear
+  215  git add jezyki.txt
+  216  git status
+  217  cd Pulpit/tester_selenium/git
+  218  ls
+  219  git status
+  220  git add.
+  221  git add .
+  222  git status
+  223  clear
+  224  git status
+  225  history
+

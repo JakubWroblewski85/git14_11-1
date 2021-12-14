@@ -1,0 +1,18 @@
+Karol Kolański
+kkolanski.edu@gmail.com
+kkolanski@kozminski.edu.pl
+od 2013 jest w IT
+kolejność operatorów
+komputer czyta od prawej do lewej
+ctr-d - zamkniecie terminala lub wyjscie z konsoli python3
+sudo - super user do
+Podczas instalacji pip3 install seleinum
+doinstalowywuje inne paczki potrzebne do dziala nia selenium
+zobacz po instalacji uzyc wpisu:
+pip3 freeze (wypisuje nam zainstalowane paczki z pipa)
+pip3 freeze > requirements.txt ( zapisuje plik z danymi z wywołanej komendy )
+/n -znak nowej lini
+/t -znak TAB
+dir -pokazuje nam co mozemy zrobic na plikach
+funkcja split podzieli nam napis
+class'bool' -nowy typ danych do zapisywania True or False

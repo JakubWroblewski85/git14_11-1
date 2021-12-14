@@ -1,0 +1,329 @@
+ALK 2-3.10 TAS
+10:00 - 10:10
+12:00 - 12:30
+13:30 - 13:40
+
+
+=== licencje:
+=== zajecia integracyjne ===
+
+GRUPA
+Srodowisko VM (ok 13 GB):
+Słownik: https://glossary.istqb.org/pl/search/przedmiot%20testów
+Zajecia 2.10
+groups.google.com
+hasło: automaty
+
+======LINKI:
+http://virtualbox.org
+https://drive.google.com/drive/folders/1VXCwFydFi2Ij4uOI6YH49GnQuO8lohzo?usp=sharing
+https://education.github.com/pack?utm_source=github+jetbrains
+https://groups.google.com/u/4/g/alk_tester_ed1_2021_2022/
+https://sjsi.org/download/6351/
+https://www.jetbrains.com/community/education/#students
+https://www.kozminski.edu.pl/pl/oferta-edukacyjna/studia-podyplomowe/tester-automatyzujacy-w-selenium-online
+https://www.tiobe.com/tiobe-index/
+materiały ISTQB FL (foundation level): https://sjsi.org/ist-qb/do-pobrania/ 
+słownik: https://sjsi.org/download/9147
+Windows on VirtualBox – Solution for black screen (for some one):
+http://www.logicalflux.com/2012/03/windows-8-on-virtualbox-4-1-10-solution-for-black-screen/
+
+
+ZAJĘCIA:
+https://kozminqa.testrail.io/
+https://docs.google.com/spreadsheets/d/1fOMbOBFRyx-RT5A0olBN12SJI1N2fAsHil1GPEDMUeE/edit?usp=sharing
+
+LINKI cd:
+https://education.github.com/git-cheat-sheet-education.pdf
+
+
+
+
+Dla osob z problemem z maszyną VM:
+https://gitforwindows.org
+GIT BASH
+
+APLIKACJA DO ćwiczen:
+cars.wizzair.com
+
+=====
+
+Polecenia z zajęc 3.10 :
+
+ 46  cd Pulpit
+   47  pwd
+   48  mkdir tester_selenium
+   49  cd tester_selenium/
+   50  pwd
+   51  cd ~
+   52  pwd
+   53  ls
+   54  cd Pulpit/tester_selenium/
+   55  mkdir git
+   56  ls
+   57  clear
+   58  echo "lubie testowanie"
+   59  cd git 
+   60  ls
+   61  git --version
+   62  git help
+   63  clear
+   64  git init
+   65  ls -all
+   66  ls -a
+   67  cd .git
+   68  ls
+   69  cd branches/
+   70  ls
+   71  cd ..
+   72  cd ../..
+   73  cd ..
+   74  cd tester_selenium/
+   75  clear
+   76  history
+   77  clear
+   78  mkdir git2 && cd git2
+   79  mkdir instrukcja && cd instrukcja && touch nauka.txt
+   80  ls
+   81  clear
+   82  python3 --version
+   83  history
+   84  clear
+   85  tree
+   86  sudo apt install tree
+   87  clear
+   88  tree
+   89  clear
+   90  ls
+   91  cp nauka.txt ~/Pulpit/tester_selenium/git
+   92  ls
+   93  tree
+   94  clear
+   95  cd >
+   96  cd ~
+   97  tree
+   98  clear
+   99  cd ~
+  100  tree
+  101  clear
+  102  home
+  103  clear
+  104  history
+  105  clear
+  106  tree
+  107  cd Pulpit/tester_selenium/git
+  108  ls
+  109  clear
+  110  ls
+  111  python3 --version
+  112  echo "Python 3.8.10">nauka.txt
+  113  echo "Python 2.8.10">>nauka.txt
+  114  echo "Python 2.8.10">nauka.txt
+  115  echo "Python 3.8.10">nauka.txt
+  116  cat nauka.txt 
+  117  echo "Python 2.8.10">>nauka.txt
+  118  cat nauka.txt 
+  119  echo "tester">>nauka.txt
+  120  cat nauka.txt 
+  121  clear
+  122  history
+  123  clear
+  124  cat nauka.txt 
+  125  cat nauka.txt | grep "Python"
+  126  ls
+  127  clear
+  128  tree
+  129  cd >
+  130  cd ~
+  131  clear
+  132  tree
+  133  clear
+  134  pwd
+  135  ls
+  136  cd Pulpit/tester_selenium/git
+  137  clear
+  138  pwd
+  139  ls
+  140  cat nauka.txt 
+  141  git status
+  142  clear
+  143  history
+  144  clear
+  145  git status
+  146  ls
+  147  ls -a
+  148  clear
+  149  touch nowyplik.txt
+  150  ls
+  151  pwd
+  152  touch jezyki.txt
+  153  echo Java > jezyki.txt 
+  154  cat jezyki.txt 
+  155  git hash-object jezyki.txt
+  156  echo Python > jezyki.txt 
+  157  git hash-object jezyki.txt
+  158  echo Java > jezyki.txt 
+  159  git hash-object jezyki.txt
+  160  clear
+  161  git status
+  162  clear
+  163  clea
+  164  clear
+  
+  
+  ==== GIT ===
+  165  git status
+  166  git add jezyki.txt 
+  167  git status
+  168  clear
+  169  cd Pulpit/tester_selenium/git
+  170  ls
+  171  git status
+  172  git add .
+  173  git status
+  174  clear
+  175  git status
+  176  history
+  177  clear
+  178  git status
+  179  clear
+  180  git commit -m "Initial commit"
+  181  git config --global "testerpodyplomowe"
+  182  clear
+  183  git commit -m "Initial commit"
+  184  git config --global user.email "testerpodyplomowe@gmail.com"
+  185  git config --global user.name "testerpodyplomowe"
+  186  cat ~/.gitconfig
+  187  git commit -m "Initial commit"
+  188  git log 
+  189  git log --oneline
+
+
+git clone https://github.com/SeleniumHQ/selenium.git
+=====przerwa ===
+  170  cd Pulpit/tester_selenium/git
+  171  ls
+  172  mv selenium/ /home/tester/Pulpit/tester_selenium/git2
+  173  history
+
+---
+170  cd Pulpit/tester_selenium/git
+  171  ls
+  172  mv selenium/ /home/tester/Pulpit/tester_selenium/git2
+  173  history
+  174  clear
+  175  ls
+  176  echo commit3 > nauka.txt 
+  177  cat nauka.txt 
+  178  git status
+  179  git add .
+  180  git commit -m "changed file"
+  181  mv nauka.txt nauka2.txt
+  182  ls
+  183  clear
+  184  git status
+  185  git commit -m "rename nauka.txt"
+  186  git add .
+  187  git commit -m "rename nauka.txt"
+  188  clear
+  189  git status
+  190  git log --online 
+  191  git log --oneline 
+  192  cat nauka2.txt 
+  193  git checkout  170  cd Pulpit/tester_selenium/git
+  194  clear
+  195  git log --oneline 
+  196  git checkout 2abe624
+  197  git log --oneline
+  198  git checkout master
+  199  git log --oneline
+  200  clear
+  201  history
+  202  clear
+  203  pwd
+  204  ls
+  205  git remote add origin https://github.com/testerpodyplomowe/test3_10.git
+  206  git remove -v
+  207  git remote -v
+  208  git branch -M main
+  209  git branch
+  210  clear
+  211  git push
+  212  git push -u origin main
+  213  clear
+  214  history
+
+
+
+
+===== CLOME2:
+Zadanie 1.1.: sklonuj repozytorium prowadzacego https://github.com/testerpodyplomowe/test3_10 do lokalnego folderu git_prowadzacy wg drzewa z tablicy
+Zadanie 1.2. Sprawdz historie zmian w tym repo 
+Zadanie 1.3. Usun folder pusty folder
+1.4. Wyslij zmiany do serwera 
+1.5 Zrobić Pull Request
+1.6 Dodać plik README.md z trescią = opisem zadania "###Ćwiczenia z gita dla testerów"
+
+
+Polecenia:
+  168  git clone https://github.com/adriannaszymanowska/test3_10-1.git
+  169  cd test3_10-1/
+  170  ls
+  171  git status
+  172  git commit -m "deleted folder fork"
+  173  git add .
+  174  git commit -m "deleted folder fork"
+  175  git log --oneline
+  176  git remote -v # sprawdzenie czy remote jest ok czyli czy zawartosc dobrego folderu z komputera lokalnie wysyla sie do poprawnego repozytorium na githubie 
+  177  clear
+  178  history
+       git push
+
+Zliczanie commitow:
+git rev-list --all --count
+
+
+====
+
+169  cd test3_10-1/
+  170  ls
+  171  git status
+  172  git commit -m "deleted folder fork"
+  173  git add .
+  174  git commit -m "deleted folder fork"
+  175  git log --oneline
+  176  git remote -v
+  177  clear
+  178  history
+  179  clear
+  180  ls
+  181  cd ..
+  182  ls
+  183  cd ..
+  184  ls
+  185  cd git
+  186  ls
+  187  clear
+  188  git remote -v
+  189  ls
+  190  rm -f pustyfolder/
+  191  rm -r pustyfolder/
+  192  clear
+  193  git status
+  194  git add .
+  195  git commit -m "delete folder"
+  196  clear
+  197  ls
+  198  git pull
+  199  ls
+  200  git log --oneline
+  201  git rev-list --all --count
+  202  clear
+  203  git rev-list --all --count
+  204  git log --oneline
+  205  git push
+  206  clear
+  207  git rev-list --all --count
+  208  clear
+  209  history
+

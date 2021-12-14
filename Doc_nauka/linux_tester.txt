@@ -1,0 +1,103 @@
+jesli kiedys ci wyskoczy: The current branch has no upstream branch
+https://dev.to/vlucas/how-to-fix-git-fatal-the-current-branch-has-no-upstream-branch-9i6
+
+
+pwd - wypisuje gdzie aktualnie sie znajdujemy
+ls - pokauje aktualne pliki i foldery tam gdzie aktualnie sie znajdujemy
+cd - czench directory zmiana miejsca
+mkdir - make directory - tworzenie nowego katalogu
+/- tez zmiejsza ilosc wyswietlanych info znaczy ze cos przed tym jest- zmiejsza wyswietlanie 
+info gdzie jestes
+TAB - gdy chcemy wejdz w katalog itp. mozna uzyc po wprowadzeniu kilku liter nacisnac 
+tab doda reszte jaka moze byc
+"echo" - wyswietla cos w terminalu mozna nadpisywac cos w plikach opisywac
+. - pliki ukryte w git giciel
+ls -a - pokazuje wszsytkie pliki np. ukryte
+cd ../.. - schodzi o 2 katalogi nizej
+history - pokazuje wszsytkie polecenia jakie były w terminalu
+apt- menadzer pakietów
+sudo - super user
+tree - drzewo
+
+przenoszenie:
+np. pliku jezyki,txt
+mv jezyki.txt ~/Pulpit/tester_selenium/git2/instrukcja/
+przy dodawaniu tekstu do pliku:
+echo "Python 3.8.10" >nauka.txt  = dodaje i nadpisuje tekst do pliku 
+echo "Python 3.8.10" >>nauka.txt  =  tylko dodaje tekst do pliku 
+CTRL + c - odblokowuje terminal
+git hash-object jezyki.txt - wypisuje
+sha - algorytm zapisywania plików itp.
+git checkout - wracamy sie do danego commita przed dana zmianą
+git push -u orgin main:
+"-u" =to jest upstream robi sie to na początku
+orgin - dokąd zdalny
+main - skąd lokalnie
+rm -rf =usuwa foldery nie puste
+rmdir = usuwa puste pliki
+python3 i nazwa pliku uruchamia go
+apt -h -wyswitli informacje help odnosnie danego programu ktory wypisujemy
+
+wazne jest aby przed instalacja nowego programu robic update (apt update)
+cd / -wchodzimy do domowego katalowego najglebiej (cd spacja i tylda)
+sudo visudo -wchodzimy musimy byc gleboko poprzez (cd /) 
+
+
+Po komendzie (ls --all)
+total 24
+drwxrwxr-x 6 tester tester 4096 paź  3 14:30 .
+drwxr-xr-x 3 tester tester 4096 paź  3 13:39 ..
+drwxrwxr-x 3 tester tester 4096 paź  3 13:12 git
+drwxrwxr-x 4 tester tester 4096 paź  3 12:50 git2
+drwxrwxr-x 3 tester tester 4096 paź  3 13:51 prowadzacy
+drwxrwxr-x 3 tester tester 4096 paź  3 14:42 prowadzacyFork
+
+
+pierwszy znaczek to jakiego rodzaju to plik (D - katalog)
+tester to wlasciciel pliku i grupa tester
+jak dodajemy nowego user to automatycznie dodaje tez taka sama grupe
+4096 -to rozmiar pliku
+drwxrwxr-x 6 -cyfra 6 to ilosc powiazanych z innymi plikami
+drwxrwxr-x -r-read w-write x-execute
+pierwsze 3 znaczniki rwx to tyczy sie wlasciciela
+nastepne 3 znaczniki rwx to tyczy sie grupy 
+a reszta reszych osób
+
+gedit -gnom edytor
+na linuxie pliki wykonywalne nie maja rozrzezenia
+rozrzezenie (.sh) skryp powłoki linux plik basha
+chmod u+x skrypt.sh -dodajemy plikowi mozliwosc dodania praw uzytkownikowi
+chmod 777 skrypt.sh -doda nam wszsytkie prawa
+chmod 000 skrypt.sh -nie ma zadnych praw
+ctr + l -czyszczenie terminala
+
+README.md -(md) od mark dowm
+
+jak juz skolonujemy repozytorium lub utworzymy
+to aby wysłać go push do swojego repozytorium wlasnego 
+musimy utworzyć nowe repozytorium
+
+
+git remote add origin https://github.com/JakubWroblewski85/git14_11.git
+ustawiamy zreguly origin 
+
+git remote -v
+pokazuje nam na aktualnie jakim repo pracujemy
+
+git push -u -(u - zapamietaj te repo)
+pote mtylko git push
+
+
+git commit -a -m "change new line in plik"
+w jednej lini add and commit
+
+Aby połaczyć brancze
+1.przelogowywuje sie na main 
+2.wykonaj merge dołączenie
+
+zrobienei merge daje nam odrazu commita
+
+git pull = git feth + git merge
+
+git push --all
+wysyła wszsytko wraz z gazłeziami

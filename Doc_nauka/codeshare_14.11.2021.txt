@@ -1,0 +1,259 @@
+ALK TAS 14.11
+
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_Yjg4MDc0YjctYTA3OS00N2M3LTg0NjYtNjFjNGU1YmRhM2U1%40thread.v2/0?context=%7b%22Tid%22%3a%2245420e8d-8552-4a03-9b92-a931ef839d3f%22%2c%22Oid%22%3a%22e1c07c6c-2f16-4109-bf45-fa292504fd86%22%7d
+
+https://learngitbranching.js.org/?locale=pl
+
+ciekawostka:
+https://towardsdatascience.com/a-step-by-step-guide-to-scheduling-tasks-for-your-data-science-project-d7df4531fc41
+
+goalkicker.com 
+
+Testy w metodykach zwinnych:
+
+https://scrumguides.org/download.html
+
+backlog grooming
+
+SAFe slajd - https://www.scaledagileframework.com/wp-content/uploads/2021/01/SAFe_5.1_Portfolio_SAFe_ImageMap.png
+
+https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Polish.pdf
+
+testy eksploracyjne - wykonywane w sesjach (session based testing) 
+typowa sesja 30min - 1,5h 
+
+
+Polecenia: 
+
+ls -l
+ls 
+577  sudo visudo
+  578  sudo apt update
+  579  apt moo
+  580  aptitiude
+  581  sudo apt install aptitude
+  582  aptitude -h
+  583  aptitude moo
+  584  aptitude moo -v
+  585  aptitude moo -vv
+  586  aptitude moo -vvv
+  587  aptitude moo -vvvv
+  588  aptitude moo -vvvvv
+  589  aptitude moo -vvvvvv
+  590  aptitude moo -vvvvvvv
+591  telnet towel.blinkenlights.nl
+  592  history
+  593  ls -l
+  594  cd Documents/
+  595  ls -l
+  596  cd ../Desktop/
+  597  ls
+  598  ls -l
+  599  whoami
+  600  cat /etc/groups
+  601  cat /etc/group
+  602  ls -l
+  603  ls -l /
+  604  ls -l 
+  605  ls -l -h
+  606  touch inne/
+  607  ls -l
+  608  gedit
+  609  ls -l
+  610  cd
+  611  ls -l
+  612  ls -a
+  613  ./skrypt.sh
+  614  ls -l
+  615  chmod u+x skrypt.sh 
+  616  ls -l
+  617  chmod u-rwx skrypt.sh 
+  618  chmod ugo+rwx skrypt.sh 
+  619  ls -l
+  620  ./skrypt.sh 
+  621  chmod u-x skrypt.sh 
+  622  ./skrypt.sh 
+  623  chmod u+x skrypt.sh 
+  624  ./skrypt.sh 
+  625  a = 2
+  626  $a =2
+  627  echo ls
+  628  echo $(ls)
+  629  HEJ = "hej"
+  630  $HEJ = "hej"
+  631  ls
+  632  ./skrypt.sh 
+
+
+
+  639  cd Desktop/
+  640  touch lklk.tnp
+  641  touch lklk.tmp
+  642  cd
+  643  ./skrypt.sh 
+  644  ls -l
+  645  chmod 000 skrypt.sh 
+  646  ls -l
+  647  l -l
+  648  l -l/
+  649  l -l
+  650  rm skrypt.sh 
+  651  ls -l
+  652  cd /
+  653  ls
+  654  chmod 777 /boot
+  655  crontab -l
+  656  history
+  657  wpd
+  658  pwd
+  659  clear
+  660  ls
+  661  cd Desktop/
+  662  history
+
+
+
+
+GIT - c.d. 
+
+https://www.markdownguide.org/cheat-sheet/
+https://github.com/testerpodyplomowe/README-cheatsheet
+
+git commit -a -m "Title changed"  = oznacza dodanie do stagingu (git add .) oraz jednoczesnie git commit -m "message"
+
+
+665  mkdir git14_11
+  666  ls
+  667  ls -a 
+  668  ls -l
+  669  cd git14_11/
+  670  ls
+  671  clea
+  672  clear
+  673  ls
+  674  git init 
+  675  ls -a 
+  676  git brancg
+  677  git branch
+  678  git status
+  679  touch README.md
+  680  ls 
+  681  echo "Git training - part2" > README.md 
+  682  cat README.md 
+  683  clear
+  684  git status
+  685  git branch
+  686  git status
+  687  clear
+  688  git status
+  689  git add .
+  690  git status
+  691  git commit -m "Initial commit"
+  692  git log --oneline
+  693  git branch -M main
+  694  git branch
+  695  git remote add origin https://github.com/testerpodyplomowe/git14_11.git
+  696  git remote -v
+  697  clear
+  698  git push -u origin main
+  699  git status
+  700  clear
+  701  git commit -a -m "Title changed"
+  702  git log 
+  703  clear
+  704  git log --oneline
+  705  history
+  706  clear
+  707  git push
+  708  clear
+  709  git log --oneline
+  710  git branch
+  711  git branch develop
+  712  git branch
+  713  git checkout develop
+  714  git branch
+  715  git branch -v
+  716  git checkout -b release
+  717  git branch -v 
+  718  git checkout develop
+  719  clear
+  720  git branch
+  721  git checkout main
+  722  git merge develop
+  723  clear
+  724  git status
+  725  git branch
+  726  git log --oneline
+  727  git pull
+  728  clear
+  729  git branch
+  730  git checkout -b feature15
+  731  git status
+  732  git add .
+  733  clear
+  734  git commit -m "New py programm added"
+  735  ls -a
+  736  touch .gitignore
+  737  git status
+  738  git add .
+  739  git commit -m "gitignore"
+  740  clear
+  741  git log --online
+  742  git log --oneline
+  743  git checkout main
+  744  git checkout develop
+  745  git checkout feature15 
+  746  clear
+  747  git branch
+  748  git checkout develop
+  749  ls
+  750  git merge feature15
+  751  clear
+  752  ls
+  753  ls -a
+  754  git branch
+  755  git checkout main
+  756  git merge develop
+  757  clear
+  758  git branch -v
+  759  gitg
+  760  clear
+  761  git log --format=short --branches --decorate --graph
+
+
+
+
+
+
+ZADANIE PIZZA:
+pizza1_price = float(input('Cena pizzy 1: '))
+pizza1_avg = float(input('Średnica pizzy 1: '))
+pizza2_price = float(input('Cena pizzy 2: '))
+pizza2_avg = float(input('Średnica pizzy 2: '))
+
+pole1 = 3.14 * ((pizza1_avg/2) ** 2)
+pole2 = 3.14 * ((pizza2_avg/2) ** 2)
+
+a = pizza1_price/pole1
+b = pizza2_price/pole2
+
+if a < b:
+    print('Pizza 1 opłaca się bardziej')
+elif a == b:
+
+
+https://github.com/testerpodyplomowe/git14_11
+
+ZADANIE: 
+1. Sforkuj repo z linijki powyżej
+2. Utwórz branch feature_pizza_fix (można lokalnie (git clone) lub po stronie gituba)
+3. Wyślij zmiany do swojego repo
+4. Utwórz PR do prowadząceg tj. głównego projektu z linii powyżej (245)
+
+
+
+
+  print('Obie są równe')
+else:
+    print('Pizza 2 opłaca się bardziej')
+
