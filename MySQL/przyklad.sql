@@ -1,3 +1,17 @@
+Wchodzenie do mysql poprzez terminal w linuxie:
+sudo mysql -u root -p 
+wpisujemy haslo (Weronika1)i jestesmy w mysql community- gdzie mozemy wykonuwac zapytania jak i polecenia.
+SHOW databases; -pokaz nam dostepne databazy. (komendy wpisujemy duzymi literami)
+SELECT databases(); -w jakiej bazie jestesmy
+DESC agenci; -wyswietli nam kolumny z danej tabeli
+CREATE DATABASES baza; -tworzy databaze o nazwie baza
+DROP DATABASE baza; -usuwa nam baze wraz z całą zawartoscią bez powrotnie.
+
+skróty:
+CTR + B -sformatowanie komendy na lepszy widok
+CTR + ENTER -wywołanie zapytania Execiut 2-ga błyskawica
+CTR + ?/ -wstawia "--" aby po spacji pisać komentarz
+
 
 -- tworzenie nowej tabeli
 CREATE TABLE agenci2 (
@@ -27,6 +41,8 @@ INSERT INTO agenci2 VALUES
 -- pokaze nam ilosc osob
 SELECT count(*) FROM alk.agenci2;
 
+
+-- 15
 CREATE TABLE agenci2_kopia AS SELECT * FROM
     agenci2;
 
@@ -44,7 +60,7 @@ WHERE
     agentid = 7;
     
 -- 19 Pobierz id agentów o imionach nie kończących się na -a.
-SELECT agentid FROM agenci2 WHERE agentname NOT LIKE '%a %';
+SELECT agentid FROM agenci2 WHERE agentname NOT LIKE '%a';
 
 
 CREATE TABLE klienci (
