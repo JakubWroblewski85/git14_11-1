@@ -47,6 +47,6 @@ modul_hr = HR()
 testowy_pracownik = Pracownik("Test", "Testowy", 1000)
 modul_hr.wyswietl_wszystkich_pracownikow()
 modul_hr.dodaj_pracownika(testowy_pracownik)
-modul_hr.wyswietl_wszystkich_pracownikow()
-
+zmienna = modul_hr.wyswietl_wszystkich_pracownikow()
+print(zmienna)
 
