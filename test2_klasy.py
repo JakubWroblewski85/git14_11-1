@@ -7,7 +7,7 @@ class Czlowiek:
     # cialo klasy
     gatunek = "homo sapiens"
     def __init__(self, imie, nazwisko):
-        print("jeste gatunku", self.gatunek)
+        print("jestem z gatunku", self.gatunek)
         print("Tworzę człowieka o imieniu", imie, nazwisko)
         self.imie = imie
         self.nazwisko = nazwisko
