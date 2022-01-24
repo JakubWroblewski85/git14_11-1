@@ -1,22 +1,10 @@
-import modul
+import calculator
 
-class FirstClass:
-    def __new
-    def __init__(self, value):
-        # KONSTRUKTOR
-        # iniciuje dane do tej daty
-        self._data = value
+calc = calculator.Calculator()
 
-    def set_data(self, value):
-        self._data = value
+result = calc.dodaj(4, 6)
+print(result)
+resul_extended = calc.add_extended(1, 2, 3, 98)
+print(resul_extended)
 
-    def display(self):
-        print(self._data)
-
-
-x = FirstClass('alicja')
-y = FirstClass()
-
-# x.set_data('Król')
-x.display()
-
+calc.add_named(a=6, b=9)
