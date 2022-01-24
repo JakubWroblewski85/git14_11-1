@@ -30,7 +30,6 @@ print(en_to_es['cat'])
 en_to_es['mouse'] = 'el rato'
 en_to_es['mouse'] = 'efdgd'
 
-
 print(en_to_es['mouse'])
 print(type(en_to_es))
 
