@@ -19,7 +19,8 @@ slownik2 = {'el1': [1,2,3]}
 slownik2 = {(1,2,3): 'el1'}
 print(slownik2[(1,2,3)])
 '''
-
+ 
+ 
 # tworzenie slownika
 # klucz wartosc
 en_to_es = {'cat' : 'gato', 'dog' : 'perro'}
