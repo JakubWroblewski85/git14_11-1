@@ -9,8 +9,6 @@ nazwisko_pracownika1 = "Nowak"
 nazwisko_pracownika2 = "Kowalska"
 nazwisko_pracownika3 = "Matysiak"
 
-
-
 class Pracownik:
     def __init__(self, imie, nazwisko, pensja_startowa):
         self.imie = imie
