@@ -1,4 +1,5 @@
 
+
 oceny_str = input('Podaj oceny oddzielone pzrecinkiem')
 
 # sprawdzam typ
