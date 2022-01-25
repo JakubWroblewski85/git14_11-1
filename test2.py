@@ -11,6 +11,7 @@ nazwisko_pracownika3 = "Matysiak"
 
 
 
+
 class Pracownik:
     def __init__(self, imie, nazwisko, pensja_startowa):
         self.imie = imie
