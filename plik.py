@@ -19,3 +19,5 @@ for ocena in oceny_list:
     wynik = suma/ilosc_ocen
     print(wynik)
 
+
+
