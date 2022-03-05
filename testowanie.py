@@ -1,29 +1,49 @@
-# tworzenie klasy
-# klasa jest szablonem
-class Czlowiek:
-    gatunek = 'homo sapiens'
+# PROGRAM KSIĘGOWY
+# MAMY FIRMĘ ZŁOŻONĄ Z 3 UŻYTKOWNIKÓW
+imie_pracownik1 = "Marcin"
+imie_pracownik2 = "Joanna"
+imie_pracownik3 = "Barbara"
 
-    # self = się - siebie
-    def __init__(self, imie, nazwisko):
-        print('tworze czlowieka o imieniu', imie, nazwisko)
-        self.imie = imie    # adam.imie = 'Adam'
-        self.nazwa = nazwisko
+nazwisko_pracownika1 = "Nowak"
+nazwisko_pracownika2 = "Kowalska"
+nazwisko_pracownika3 = "Matysiak"
 
-    # dodaje metodę -(czyli funkcje) do funkcji wewnatrz klasy
-    def powiedz_hej(self):
-        print('Hej')
+class Pracownik:
+    def __init__(self, imie, nazwisko, pensja):
+        self.imie = imie
+        self.nazwisko = nazwisko
+        self.pensja = pensja
 
-
-# tworze objekt
-# instancje klasy czlowiek
-adam = Czlowiek('Adam', 'Wąglik')   # self = adam, odnosi sie do konkretnego obiektu
-ewa = Czlowiek('Ewa', 'Pierworodna')   # self = ewa
-good = Czlowiek('Bóg', 'Wszechmogący')
+    def __repr__(self):
+        return self.imie + ' ' + self.nazwisko
 
 
-# print(type(adam))
-# print(adam.gatunek)
-# adam.powiedz_hej()
-# ewa.powiedz_hej()
-# print('Tworzę czlowieka o imieniu', '\n', adam.imie, adam.nazwa)
+class HR:
+    def __init__(self):
+        self.marcin = Pracownik('Marcin', 'Nowak', 5000)
+        self.barbara = Pracownik('Barbara', 'Matysiak', 4000)
+        self.andrzej = Pracownik('Andrzej', 'Kwiatkowski', 5500)
+        self.pracownicy = [self.marcin, self.barbara, self.andrzej]
 
+    def wylicz_miesieczna_wydatki(self):
+        wydatki = 0
+        for pracownik in self.pracownicy:
+            wydatki += pracownik.pensja
+        return wydatki
+
+    def dodaj_pracownika(self, pracownik):
+        print(self.pracownicy)
+        self.pracownicy.append(pracownik)
+        print(self.pracownicy)
+
+    def wszyscy_pracownicy(self):
+        print('\nImiona wszystkich pracowników:')
+        for pracownik in self.pracownicy:
+            print(pracownik.imie)
+
+
+modul_hr = HR()
+zbyszek = Pracownik('Marcin', 'Nowak', 4500)
+modul_hr.dodaj_pracownika(zbyszek)
+print('Miesięczne wydatki na pensje pracowników:', modul_hr.wylicz_miesieczna_wydatki(), 'zł')
+modul_hr.wszyscy_pracownicy()
