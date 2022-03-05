@@ -7,6 +7,7 @@ pizza2_price = float(input('Cena pizzy 2: '))
 pizza2_a = float(input('Bok krótszy pizza2:'))
 pizza2_b = float(input('Bok dłuższy pizza2:'))
 
+
 pole1 = pizza1_a * pizza2_b * 2
 pole2 = pizza2_a * pizza2_b
 
