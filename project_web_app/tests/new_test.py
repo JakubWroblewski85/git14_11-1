@@ -11,9 +11,9 @@ class NewTest(unittest.TestCase):
 
     def setUp(self):
         # 1. Z otwartą przeglądarką
-        # self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome()
         # do jenkinsa
-        self.driver = webdriver.Chrome('~/Desktop/git14_11/git14_11-1/project_web_app/chromedriver')
+        # self.driver = webdriver.Chrome('~/Desktop/git14_11/git14_11-1/project_web_app/chromedriver')
         # self.driver = webdriver.Firefox()
         # self.driver.maximize_window()
 
