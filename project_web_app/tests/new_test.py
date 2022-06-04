@@ -2,7 +2,6 @@ import unittest
 from selenium import webdriver
 from pages.home_page import HomePage
 from tests.test_data import TestData
-from selenium.webdriver.chrome.options import Options
 
 class NewTest(unittest.TestCase):
     '''
@@ -10,15 +9,9 @@ class NewTest(unittest.TestCase):
     '''
 
     def setUp(self):
-    	# for jenkins
-    	chrome_options = Options()
-	chrome_options.add_argument('--headless')
-	chrome_options.add_argument('--no-sandbox')
-	chrome_options.add_argument('--disable-dev-shm-usage')
-	self.driver = webdriver.Chrome('/home/<user>/chromedriver',chrome_options=chrome_options)
 	
         # 1. Z otwartą przeglądarką
-        # self.driver = webdriver.Chrome()
+        self.driver = webdriver.Chrome()
         # do jenkinsa
         # self.driver = webdriver.Firefox()
         # self.driver.maximize_window()
