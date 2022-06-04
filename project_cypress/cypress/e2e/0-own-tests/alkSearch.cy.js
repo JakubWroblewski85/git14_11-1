@@ -1,6 +1,5 @@
-/// <reference types="cypress" />
+/// <refrence types="Cypress" />
 Cypress.config().waitForAnimations = true;
-
 
 const testedPage = "https://www.kozminski.edu.pl/pl";
 const course1 = "selenium"
@@ -15,14 +14,15 @@ describe("ALK search",()=>{
         cy.get("#search").type(course1).type("{enter}");
     })
 
-    it("schould find course on results", ()=>{
+    it("should find course on results", ()=>{
         cy.wait(2000);
-        // cy.get('.search-results-block').contains(course1, {matchCase:false});
-        // cy.get('.search-results-block').should('have.text', 'Programy');
-        cy.get('.search-results-block').then(($block1) =>{
-            expect(($block1.text())).to.include('Programy') 
+       // cy.get('.search-results-block').contains("Programy",{matchCase:false});
+       // cy.get('.search-results-block').should('have.text',"Programy");
+       cy.get('.search-categories-container > #product').then(($block1) =>{
+            expect($block1.text()).to.include("Programy")
         })
-
     })
-
 })
+
+
+

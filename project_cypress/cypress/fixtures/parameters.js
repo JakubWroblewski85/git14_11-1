@@ -1,5 +1,6 @@
 // Account Manager parameters
 
+
 export const parametersAccountManager = {
     role: "Account Manager",
     subtitle: "Zaloguj się do naszego super bezpiecznego systemu!",
@@ -7,11 +8,12 @@ export const parametersAccountManager = {
     buttonText: "Zaloguj się!",
     linkText: "Zarejestruj się!",
     setUpAccountText: "Załóż konto",
-    logoutText: "Wróc do logowania!",
+    logoutText: "Wróc do logowania",
     logoutButtonText: "Wyloguj się",
     testedLogin: "tester",
-    testedPassword: "123",
+    testedPassword: "123"
 }
+
 
 //HR Manager
 
