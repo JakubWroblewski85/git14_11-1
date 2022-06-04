@@ -10,10 +10,16 @@ class NewTest(unittest.TestCase):
     '''
 
     def setUp(self):
+    	# for jenkins
+    	chrome_options = Options()
+	chrome_options.add_argument('--headless')
+	chrome_options.add_argument('--no-sandbox')
+	chrome_options.add_argument('--disable-dev-shm-usage')
+	self.driver = webdriver.Chrome('/home/<user>/chromedriver',chrome_options=chrome_options)
+	
         # 1. Z otwartą przeglądarką
-        self.driver = webdriver.Chrome()
+        # self.driver = webdriver.Chrome()
         # do jenkinsa
-        # self.driver = webdriver.Chrome('~/Desktop/git14_11/git14_11-1/project_web_app/chromedriver')
         # self.driver = webdriver.Firefox()
         # self.driver.maximize_window()
 
